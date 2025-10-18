@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "MLCC Capacitor 10uF 50V",
+    "part": "C-MLCC-10uF-50V",
+    "category": "Capacitor",
+    "manufacturer": "Murata"
+  },
+  {
+    "id": 2,
+    "name": "Temperature Sensor LM35",
+    "part": "LM35DZ",
+    "category": "Temperature Sensor",
+    "manufacturer": "Analog Devices"
+  },
+  {
+    "id": 3,
+    "name": "Operational Amplifier LM324",
+    "part": "LM324",
+    "category": "Op-Amp",
+    "manufacturer": "Texas Instruments"
+  },
+  {
+    "id": 4,
+    "name": "Surface Mount Resistor 10k 1%",
+    "part": "R-10K-1%",
+    "category": "Resistor",
+    "manufacturer": "Vishay"
+  },
+  {
+    "id": 5,
+    "name": "RF Mixer Module",
+    "part": "RF-MIX-101",
+    "category": "RF Module",
+    "manufacturer": "Mini-Circuits"
+  },
+  {
+    "id": 6,
+    "name": "Laser Diode 650nm",
+    "part": "LD-650",
+    "category": "Laser",
+    "manufacturer": "Osram"
+  },
+  {
+    "id": 7,
+    "name": "Voltage Regulator 5V",
+    "part": "REG-5V-1A",
+    "category": "Power",
+    "manufacturer": "STMicroelectronics"
+  }
+]

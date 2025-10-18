@@ -1,0 +1,15 @@
+{
+  "name": "sanshina-final",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "npx nuxt dev",
+    "build": "npx nuxt build",
+    "generate": "npx nuxt generate",
+    "start": "npx nuxt preview"
+  },
+  "dependencies": {
+    "nuxt": "3.13.0"
+  }
+}

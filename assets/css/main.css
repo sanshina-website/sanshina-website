@@ -1,0 +1,44 @@
+:root{
+  --brand:#0b5ed7;
+  --accent:#0a66d0;
+  --dark:#0f1724;
+  --muted:#6b7280;
+  --bg:#ffffff;
+  --card:#ffffff;
+  font-family: Inter, Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+*{box-sizing:border-box}
+html,body,#__nuxt{height:100%}
+body{margin:0;background:linear-gradient(180deg,#f7fafc 0%, #eef4ff 100%);color:var(--dark);-webkit-font-smoothing:antialiased}
+.container{max-width:1280px;margin:0 auto;padding:28px}
+.header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo img{height:72px;border-radius:6px}
+.nav{display:flex;gap:16px;align-items:center}
+.nav a{color:var(--dark);text-decoration:none;font-weight:600;padding:8px 12px;border-radius:8px}
+.cta{background:var(--brand);color:#fff;padding:10px 16px;border-radius:12px;text-decoration:none;font-weight:700}
+.hero{display:grid;grid-template-columns:1fr 520px;gap:32px;align-items:center;margin-top:24px}
+.hero h1{font-size:40px;line-height:1.02;margin:0 0 12px;color:var(--dark)}
+.hero p{margin:0 0 18px;color:var(--muted);font-size:16px}
+.search-bar{display:flex;gap:10px;margin-top:14px}
+.search-bar input{flex:1;padding:12px;border-radius:12px;border:1px solid #e6eefc}
+.search-bar button{padding:10px 14px;border-radius:10px;background:var(--accent);color:#fff;border:none}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:20px}
+.feature{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 8px 30px rgba(11,94,215,0.06)}
+.section{margin-top:42px}
+.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+.card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 8px 30px rgba(15,23,36,0.04)}
+.oem-logos{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-top:14px}
+.oem-logos img{height:44px;opacity:0.95}
+.footer{margin-top:48px;padding-top:20px;border-top:1px solid rgba(15,23,36,0.04);color:var(--muted);font-size:13px;text-align:center;padding-bottom:30px}
+@media(max-width:980px){
+  .hero{grid-template-columns:1fr}
+  .features{grid-template-columns:repeat(2,1fr)}
+  .card-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:640px){
+  .features{grid-template-columns:1fr}
+  .card-grid{grid-template-columns:1fr}
+  .logo img{height:48px}
+  .hero h1{font-size:28px}
+}
